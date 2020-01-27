@@ -1,12 +1,11 @@
 package com.example.android.searchdebounce.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.android.searchdebounce.R
-import com.example.android.searchdebounce.domain.Photo
 import kotlinx.android.synthetic.main.activity_photos.photosRecyclerView
 
 class PhotosActivity : AppCompatActivity() {
