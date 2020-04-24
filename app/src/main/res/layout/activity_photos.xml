@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".ui.PhotosActivity"
-    android:padding="4dp">
+    >
+    <EditText
+        android:id="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search for something"
+        android:layout_marginBottom="4dp"
+        />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/photosRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
-</FrameLayout>
+</LinearLayout>
